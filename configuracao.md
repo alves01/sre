@@ -22,4 +22,7 @@ q --version
 
 q login
 
-### 
+### 3. Diretorios principais devem estar nessa hierarquia
+
+mkdir -p ~/.aws/amazonq/prompts
+mkdir -p ~/.aws/amazonq/cli-agents
