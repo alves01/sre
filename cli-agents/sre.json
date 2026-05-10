@@ -1,0 +1,16 @@
+{
+  "name": "sre",
+  "description": "Agente SRE Especialista em Dynatrace, Kubernetes e Troubleshooting",
+  "prompt": "file://../prompts/sre-prompt.md",
+  "mcpServers": {
+    "dynatrace": {
+      "command": "npx",
+      "args": ["-y", "@dynatrace-oss/dynatrace-mcp-server@latest"],
+      "env": {
+        "DT_ENVIRONMENT": "https://wkf10640.apps.dynatrace.com"
+      }
+    }
+  },
+  "tools": ["*"],
+  "useLegacyMcpJson": false
+}
