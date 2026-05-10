@@ -26,3 +26,12 @@ q login
 
 mkdir -p ~/.aws/amazonq/prompts
 mkdir -p ~/.aws/amazonq/cli-agents
+
+### 4. no arquivo sre.json adicionar token de acesso
+
+Gerar o token de plataforma no Dynatrace
+
+"env": {
+  "DT_ENVIRONMENT": "https://{tenant}.apps.dynatrace.com",
+  "DT_PLATFORM_TOKEN": "{token}"
+}
