@@ -29,9 +29,16 @@ mkdir -p ~/.aws/amazonq/cli-agents
 
 ### 4. no arquivo sre.json adicionar token de acesso
 
-Gerar o token de plataforma no Dynatrace
+Gerar o token de plataforma no Dynatrace.
+Se estiver usando o Playground não é necessário token.
 
 "env": {
   "DT_ENVIRONMENT": "https://{tenant}.apps.dynatrace.com",
   "DT_PLATFORM_TOKEN": "{token}"
 }
+
+### Executar ###
+
+Se tudo der certo agora é só subir o agente
+
+q chat --agent sre
